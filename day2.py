@@ -117,13 +117,117 @@
 # l=len(name)
 # print(l)
 
-name=input("enter your name:")
-for i in range(0,len(name)):
-    if name[i]=="e" or name[i]=="E":
-        print(i+1)
-        break
+# name=input("enter your name:")
+# for i in range(0,len(name)):
+#     if name[i]=="e" or name[i]=="E":
+#         print(i+1)
+#         break
+
+############################################################################################
+#
+######## DATA STRUCTURE IN PYTHON  ######
 
 
+# list[]
+# dict{}
+# tuple()
+# list=[1,2,3,4,5,6,7,8,9]
+# for i in list:
+#     print(i,end=" ")
+
+#####################################################################
+#  DEFINE  A LIST CONTAINING NAMESOF STUDENT IN CLASS ASK THE USER TO 
+#  INPUT EXAM RESULT OF EACH SSSTUDENT AND PRINT A DATA EACH OD DATA OF HIGHEST MARK
+# n=5
+# li=[]
+# while n:
+#     name=input("Enter a name:")
+#     marks=input("Enter a marks")
+#     n=n-1
+#     li.append(name)
+#     li.append(marks)
+# n=li[2]
+# for i in range(1,len(li),2):
+#     if n<=li[i] :
+#         continue
+#     else:
+#         n=li[i] 
+# print(n)
+
+# li=['Kiran', '23', 'raj', '34', 'ankit', '24', 'suyog', '34', 'rahul', '95']
+# n=5
+# while(n):
+#     name=input("enter name:")
+#     marks=input("Marks:")
+#     li.append(name)
+#     li.append(marks)
+#     print(li)
+#     n=n-1
 
 
+# for i in range(0,10,2):
+#     index=1
+#     k=li[1]
+#     if k<=li[i]:
+#         continue
+#     else:
+#         k=li[i]
+#         index=index+2
+# print(k," ",li[index]," ",index)
+####################################################################################
+# li=[1,2,3,4,5,6,7,8,9]
+# print(max(li)) #max function
+# print(min(li)) 
+
+# li=[121,3,4,2,3,4,65,7,8,64,4,2,43]
+# n=input()
+# mx=max(li)
+# for i in range(0,len(li)):
+#     jk=li[i]
+#     for j in range(0,len(li)):
+#         if li[j]+jk==mx:
+#             print("true")
+#             break
+
+###################################################################################3
+# l=int(input("length:"))
+
+# t=input("target:")
+# li=[]
+# for i in range(0,l):
+#     inp=input()
+#     li.append(inp)
+#     # print(li)
+# print(li)
+# print("max element:",max(li))
+# for i in range(0,l):
+#     k=li[i]
+#     for j in range(i+1,l):
+#         if (k+li[j])==t:
+#             print("true")
+#             break
+#         else:
+#             continue
+###################################################################
+# l=int(input("length:"))
+# kp=0
+# t=input("target:")
+# li=[]
+# for i in range(0,l):
+#     inp=input()
+#     li.append(inp)
+#     # print(li)
+# print(li)
+# print("max element:",max(li))
+# for i in range(0,l):
+  
+#     for j in range(i+1,l):
+#         if(li[i]+li[j])==t:
+#             kp=1 
+# if kp==1:
+#     print("true")
+# else:
+#     print("false")
+
+##################################################
 
