@@ -230,4 +230,22 @@
 #     print("false")
 
 ##################################################
+#2D list
 
+
+
+# month=["jan","feb","march","april","may","june","july","aug","sept","oct","nov","dec"]
+# aveg=[]
+# li=[]
+
+# # n=int(input("enter limit:"))
+# for i in range(0,12):
+#     l=[]
+#     np=input("min:")
+#     mp=input("max:")
+    
+#     l.append(month[i])
+#     l.append((np+mp)/2)
+#     li.append(l)
+# print(li)
+#########################################################################
