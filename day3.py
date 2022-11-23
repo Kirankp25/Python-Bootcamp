@@ -100,3 +100,89 @@
 # if(re.match(pattern,code)):print("valid")
 # else:print("invalid")
 #########################################################################
+
+#WAP TO CHECK VALID MAIL-ID
+# import re
+# code=input("input code:")
+# pattern="([a-z]{3,9}[0-9]{3,9}[@]{1}[a-z]{1,5}[.]+[com]+)"
+# if(re.match(pattern,code)):print("valid")#match function
+# else:print("invalid")
+
+##########################################################################
+###### USER DEFINE FUNCTION #######
+#user define
+# def fun():
+#     print("Hello Friends...!")
+#     x=10
+#     print("x:",x)
+# #main
+
+# print("Welcome to JSPM")
+# x=100
+# print("x:",x)
+# fun()
+# print("x:",x)
+# print("Thank you")
+#####################################################################
+# user define
+#multiple value can return in python
+# def deposite():               #parameter
+#     global balance            #global variable
+#     amt=int(input("enter amount:"))
+#     print("current balance:",balance+amt)
+# def withdraw():               #parameter
+#     global balance            #global variable
+#     wit=int(input("enter amount:"))
+#     print("current balance:",balance-wit)
+    
+# balance=int(input("enter balance:"))
+# print("1.deposite\n2.withdraw")
+# ch=int(input("what you want:"))
+# if ch==1:
+#     deposite()                #argument
+# else:
+#     withdraw()
+##################################################################################
+#message encryption using user define function
+# def encrypt(message):
+#     form=""
+#     for i in range(0,len(message)):
+#         if((i+1)%2==0):
+#             form=form+message[i]
+#     for i in range(0,len(message)):
+#         if((i+1)%2!=0):
+#             form=form+message[i]
+#     return form
+# #main function
+# message=input("enter a massage:")
+# message=encrypt(message)
+# print(message)
+# #output-->
+# # i/p->enter a massage:hello jo
+# # o/p->el ohloj
+###############################################################################
+# #user define
+# def fun(a,n="pune"): #default value
+#     print("a:",a)
+#     print("name:",n)
+
+# #main
+# a=3
+# name=""
+# fun(a=100,n="jalgaon")
+#########################################
+#VarArgs parameters
+# def fun(s,*n,**t):
+#     print("s",s)
+#     for i in n:
+#         print(i)
+#     print(t['veg'])
+
+# fun(1,2,3,4,5,veg=100,fruit=1000)
+###################################################
+# def t(**n):
+
+#     for i in n:
+#         print(i)
+    
+# t(Mon=41,Tue=45,Wedn=44,Thus=43,Fri=49,Sat=45,Sun=50)
