@@ -181,8 +181,15 @@
 # fun(1,2,3,4,5,veg=100,fruit=1000)
 ###################################################
 # def t(**n):
+#     max_value=0
+#     max_key=""
 
 #     for i in n:
-#         print(i)
+#         if t[i]>max_value:
+#             max_value=t[i]
+#             max_key=i
+#     return max_key,max_value
     
 # t(Mon=41,Tue=45,Wedn=44,Thus=43,Fri=49,Sat=45,Sun=50)
+# print(t())
+################################################################
